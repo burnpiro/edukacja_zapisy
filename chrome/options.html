@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="options.js"></script>
+</head>
+<body>
+	<div class="margin_auto">Zapisy działają wyłącznie po wejściu na stronę https://edukacja.pwr.wroc.pl/EdukacjaWeb/studia.do<br/><img src="cl_tytul01.gif" border="0" width="986px" height="70px"/></div>
+<div id="content">
+	<div class="left">
+	Dane do logowania:<br/>	
+	Login: <input type="text" id="login"/><br/>
+	Hasło: <input type="password" id="pass"/><br/>
+	<button id="zmiana_login">Zapisz</button><br/>
+	Lista kursów:
+	<div id="codes"></div>
+	<button id="usun">Usuń wszystkie</button></div>
+	<div class="center">
+	<img src="q.jpg" id="q_kursy"/> <span>Dodaj kursy oddzielone enterem:</span>
+	<div><textarea id="data_input" cols="40" rows="5"></textarea><br/>
+	<button id="data_submit">Dodaj</button></div>
+	<img src="q.jpg" id="q_delay"/> <span>Opóźnienie: <input type="text" id="delay" size="4"/> ms</span><br/>
+	<img src="q.jpg" id="q_data"/> Data:
+	<input type="text" id="day" size="2"/>-
+	<input type="text" id="month" size="2"/>-
+	<input type="text" id="year" size="4"/>
+	<br/>
+	<img src="q.jpg" id="q_godz"/> Godzina: 
+	<input type="text" id="hour" size="2"/>:
+	<input type="text" id="min" size="2"/>:
+	<input type="text" id="sec" size="2"/><br/>
+	<img src="q.jpg" id="q_num"/> Numer zapisów: <input type="text" id="zapis_num" size="1"/><br/>
+	Semestr: <input type="text" id="semestr" size="1"/><br/><br/>
+	
+	Opcje specjalne:<br/>
+	<img src="q.jpg" id="q_kier"/> Numer kierunku <input type="text" size="1" id="kierunek"/><br/>
+	<input type="checkbox" id="ogolno"/> Korzystaj z AKZ <img src="q.jpg" id="q_ogolno"/><br/>
+	<button id="zapisz_wszystko">Zapisz Ustawienia</button>
+	</div>
+	<div class="right">Informacje: <br/><br/>
+	<div id="info_tresc"></div></div>
+</div>
+</body>
+</html>

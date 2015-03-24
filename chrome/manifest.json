@@ -1,0 +1,21 @@
+{
+  "name": "Edukacja Cl Zapisy",
+  "version": "0.4.2",
+  "manifest_version": 2,
+  "description": "Automaczyne zapisy przez serwis edukacja.cl politechniki wrocławskiej. Autor Piro",
+  "content_security_policy": "default-src 'self'; style-src 'self'; script-src 'self';",
+  "browser_action": {
+    "default_icon": "pwr.jpg"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://edukacja.pwr.wroc.pl/*"],
+      "js": ["zapisy.js"]
+    }
+  ],
+  "permissions": [
+    "tabs", 
+    "<all_urls>"
+  ]
+}

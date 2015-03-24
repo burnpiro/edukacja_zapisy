@@ -1,0 +1,34 @@
+body {
+	min-width:357px;
+	overflow-x:hidden;
+}
+
+#content {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 200px;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	float: left;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.right {
+	float: left;
+	padding-left: 30px;
+	width: 400px;
+	text-align: left;
+}
+
+.margin_auto {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
